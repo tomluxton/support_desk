@@ -6,14 +6,15 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js"
-
   },
   "author": "Tom Luxton",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
